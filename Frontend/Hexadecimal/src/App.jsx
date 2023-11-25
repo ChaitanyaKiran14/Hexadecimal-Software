@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>MERN Stack Example</h1>
+        <h1>Hexadecimal User Management Dashboard</h1>
       </header>
       <main>
         <UserTable />
