@@ -4,38 +4,47 @@ This project is a User Management System built with the MERN (MongoDB, Express.j
 
 Backend Setup (Node.js & Express.js)
 
-Initialize the Backend
-Navigate to the backend directory
+1. Initialize the Backend
+
+# Navigate to the backend directory
 cd backend
 
-Install dependencies
+# Install dependencies
 npm install
 
-Run the server
+# Run the server
 npm start
 
-API Endpoint - /v1/users The /v1/users endpoint fetches user and post data from external APIs, combining them based on the userId field. Additionally, it supports user search functionality using the searchText query parameter.
+2. API Endpoint - /v1/users
+The /v1/users endpoint fetches user and post data from external APIs, combining them based on the userId field. Additionally, it supports user search functionality using the searchText query parameter.
+
 Frontend Setup (React.js)
 
-Set Up the Frontend
-Navigate to the frontend directory
+1. Set Up the Frontend
+# Navigate to the frontend directory
 cd frontend
 
-Install dependencies
+# Install dependencies
 npm install
 
-Run the React app
+# Run the React app
 npm start
 
-User Interface - Hexadecimal User Management Dashboard The React app displays a Hexadecimal User Management Dashboard, providing a visually appealing table to view combined user and post data. The table includes a search input that allows users to search for specific users by name.
+2. User Interface - Hexadecimal User Management Dashboard
+The React app displays a Hexadecimal User Management Dashboard, providing a visually appealing table to view combined user and post data. The table includes a search input that allows users to search for specific users by name.
 
-Integrate Search Functionality The search input sends a request to the backend API with the search text as a query parameter (/v1/users?searchText=John). The backend filters the results based on the provided search text and returns matching users.
+3. Integrate Search Functionality
+The search input sends a request to the backend API with the search text as a query parameter (/v1/users?searchText=John). The backend filters the results based on the provided search text and returns matching users.
 
-Plain CSS Styling The styling of the table is implemented using plain CSS, emphasizing a clean and eye-catching design without relying on external frameworks or libraries.
+4. Plain CSS Styling
+The styling of the table is implemented using plain CSS, emphasizing a clean and eye-catching design without relying on external frameworks or libraries.
+
 
 Technologies Used :
 
-Backend: Node.js, Express.js Frontend: React.js Styling: Plain CSS
+Backend: Node.js, Express.js
+Frontend: React.js
+Styling: Plain CSS
 
 Credits :
 
