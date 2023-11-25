@@ -13,7 +13,7 @@ cd backend
 npm install
 
 # Run the server
-npm start
+npm run dev
 
 2. API Endpoint - /v1/users
 The /v1/users endpoint fetches user and post data from external APIs, combining them based on the userId field. Additionally, it supports user search functionality using the searchText query parameter.
