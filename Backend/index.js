@@ -9,7 +9,6 @@ app.use(cors())
 
 const PORT = 3000;
 
-// Define the /v1/users endpoint
 app.get('/v1/users', async (req, res) => {
   try {
     // Fetch user data from the first API
@@ -26,7 +25,7 @@ app.get('/v1/users', async (req, res) => {
       return { ...user, posts: userPosts };
     });
 
-    // Check for search functionality
+    // Checking for search functionality
     const searchText = req.query.searchText;
     if (searchText) {
       const filteredData = combinedData.filter(user =>

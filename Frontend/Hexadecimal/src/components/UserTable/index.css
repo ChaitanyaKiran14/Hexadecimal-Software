@@ -55,18 +55,16 @@ body {
     border-color: #2980b9;
   }
   
-  /* Glossy transparent finish for table rows */
   tbody tr {
     background: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7));
     transition: background 0.3s;
   }
   
-  /* Optional: Hover effect for the table rows */
+  
   tbody tr:hover {
     background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5));
   }
   
-  /* Stylish box for posts */
   td ul {
     list-style: none;
     padding: 0;
@@ -84,10 +82,10 @@ body {
   input[type="text"] {
     width: calc(25% - 24px); 
     padding: 12px;
-    margin: 0 auto; /* Center the search bar */
+    margin: 0 auto; 
     display: block;
     border: 0px solid #3498db;
-    border-radius: 25px; /* Adjust the border-radius to make it more rounded */
+    border-radius: 25px; 
     background-color: #ecf0f1;
     color: #333;
     transition: border-color 0.3s;
