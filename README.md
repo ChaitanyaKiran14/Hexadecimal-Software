@@ -28,7 +28,7 @@ cd frontend
 npm install
 
 # Run the React app
-npm start
+npm run dev
 
 2. User Interface - Hexadecimal User Management Dashboard
 The React app displays a Hexadecimal User Management Dashboard, providing a visually appealing table to view combined user and post data. The table includes a search input that allows users to search for specific users by name.
